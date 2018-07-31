@@ -1,4 +1,5 @@
-for (var aDiv of divs) {
-  // set the third argument to `true`!
-  aDiv.addEventListener('click', capture, true)
-}
+const main = document.getElementById('main')
+ 
+main.addEventListener('click', function(event) {
+  alert('I was clicked!')
+})
