@@ -39,7 +39,7 @@ function capture(e) {
  
 for (var aDiv of divs) {
   // set the third argument to `true`!
-  adiv.addEventListener('click', bubble);
+  aDiv.addEventListener('click', capture, true)
 }
 
 
